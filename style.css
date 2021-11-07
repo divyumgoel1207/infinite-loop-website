@@ -1,0 +1,402 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 0.3s linear;
+}
+
+.heading{
+    background-image: url('infinite-loop-01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    min-height: 100vh;
+}
+
+.nav-link,.navbar-brand{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+
+.nav-link{
+    margin:5px;
+}
+
+.nav-link:hover{
+    background-color: rgb(46, 46, 153);
+    color: white;
+}
+
+
+.navbar-brand:hover{
+    color: rgb(141, 141, 247);
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 14rem;
+}
+
+.header{
+    font-size: 3.7rem;
+    text-shadow: 2px 2px 2px 2px rgb(190, 190, 190);
+}
+
+.t{
+    font-size: 1.3rem;
+    margin-top: 0px;
+}
+
+
+.fas{
+    font-size: 1.6rem;
+    background-color: rgb(0, 0, 63);
+    cursor: pointer;
+    padding: 20px 30px;
+}
+
+.fas:hover{
+    background-color: rgb(46, 46, 153);
+    transform: scale(1.2);
+}
+
+
+.whatwedo{
+    background-color: white;
+    min-height:50vh;
+}
+.edit{
+    color:#37A;
+}
+
+.ed{
+    color:#707070;
+    font-size: 1.4rem;
+}
+
+.get{
+    color:#37A;
+}
+
+.bi{
+    color: black;
+    font-size: 100px;
+}
+
+.co{
+    color: #37A;
+    font-size: 5rem;
+    background-color: white;
+}
+
+.co:hover{
+    background-color: white;
+}
+
+.card{
+    border: none;
+}
+
+.card-title{
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #37A;
+}
+
+.far{
+    color: #37A;
+    font-size: 4.8rem;
+    margin-top: 21px;
+    margin-left: 29px;
+}
+
+
+.modify{
+    background-color: #37A;
+    color: white;
+    padding:10px 50px;
+    margin-top:30px;
+    border: none;
+    outline: none;
+}
+
+.modify:hover{
+    border: 1px solid rgb(155, 155, 255);
+    transform: scale(1.1);
+}
+
+.gallery{
+    background-color: white;
+    min-height: 100vh;
+}
+
+.gal{
+    color: #37A;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+.brand{
+    text-align: center;
+    color:#707070;
+}
+
+.testimonials{
+    background-image: url('infinite-loop-02.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    min-height: 100vh;
+}
+
+.uio{
+    font-size: 3.6rem;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.pol{
+    text-align: center;
+    color: white;
+    font-size:1.3rem;
+    padding-top: 10px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+
+  .beech{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .beech p{
+      color: white;
+      text-align: justify;
+      padding-top: 20px;
+  }
+
+  .out{
+      text-align: right;
+      font-style: italic;
+      color: white;
+  }
+
+  
+
+.row01,.row02,.row03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:60px;
+}
+
+.rowimg{
+    height:300px;
+    width: 350px;
+    padding:20px;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.contain {
+    position: relative;
+    width: 50%;
+  }
+  
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .contain:hover .rowimg {
+    opacity: 0.5;
+  }
+  
+  .contain:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .exer{
+      font-weight: bold;
+  }
+
+
+  .contact{
+      background-image: url('infinite-loop-03.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 120vh;
+      background-attachment: fixed;
+  }
+
+  .con,.ali{
+      text-align: center;
+      color: white;
+  }
+
+  .con{
+      font-size: 2.6rem;
+      padding-top: 40px;
+      }
+
+.ali{
+    font-size: 1.3rem;
+}
+
+.formandcont{
+    display: flex;
+    padding-top:50px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+
+}
+
+.frm input{
+background-color: transparent;
+outline: none;
+border:1px solid white;
+border-radius: 10px;
+color: white;
+margin:15px;
+padding:20px 40px;
+width:500px;
+}
+
+.frm textarea{
+    background-color:transparent;
+    border:1px solid white;
+border-radius: 10px;
+color: white;
+margin:15px;
+padding:20px 40px;
+width:500px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: white!important;
+    opacity: 1;
+    }
+
+
+
+
+
+
+
+
+@media (max-width:995px){
+    .heading{
+        min-height: 150vh;
+    }
+
+
+    .testimonials{
+        min-height: 150vh;
+    }
+
+    .beech{
+        font-size: 12px;
+    }
+
+    .frm{
+        width:300px;
+    }
+
+    .frm textarea,.frm input{
+
+        width: 200px;
+    }
+
+    .gallery{
+        min-height: 200vh;
+    }
+
+    .rowimg{
+        height:150px;
+        width: 150px;
+        padding:20px;
+    }
+
+    .row01,.row03{
+        flex-direction: column;
+    }
+
+    .text {
+        background-color: black;
+        color: white;
+        font-size: 8px;
+        padding: 10px 10px;
+      }
+
+    .t{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+}
